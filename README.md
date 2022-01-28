@@ -17,3 +17,9 @@ Assignment 1:
 Assignment second:
 -> Take a character from the user and show whether it is a vowel or
  consonant.
+
+Jan-27
+
+Assignment 1:
+
+-> Take the inputs from the user. It has to be dynamic. I can enter 3 numbers as well as 30 numbers. It should give me the maximum of all of them. We will be using Array as the underlying (in the code) data structure.
