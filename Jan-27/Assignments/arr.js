@@ -1,17 +1,18 @@
-var a = prompt("Enter a  size of number you want to compare");
+var num = prompt("Enter a  size of number you want to compare");
+num = parseInt(num);
 
 var arr = [ ];
 
 var i = 0;
 
-for (i = 0;  i < a;  i++) {
+for (i = 0;  i < num;  i++) {
     arr[i] = prompt("Enter the number to compare");
      }
     console.log(arr);
 
 var max = arr[0];
 
-for (i = 0;   i < a;  i++) {
+for (i = 0;   i < num;  i++) {
       if (arr[i]  >  max){
           max = arr[i];
        }
