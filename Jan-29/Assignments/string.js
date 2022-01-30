@@ -14,4 +14,5 @@ var i;
             }
         }
         console.log(count);
+        console.log(str + " " + "has ", + count + " " + "vowels");
     
