@@ -6,7 +6,7 @@ var arr = [ ];
 var i = 0;
 
 for (i = 0;  i < num;  i++) {
-    arr[i] = prompt("Enter the number to compare");
+    arr[i] = parseInt(prompt("Enter the number to compare"));
      }
     console.log(arr);
 
