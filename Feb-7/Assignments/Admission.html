@@ -1,0 +1,51 @@
+<html>
+
+<head></head>
+
+<body>
+    <h1>College Admission Form</h1>
+    <h3>Enter Your admission information below</h3>
+    <form action="">
+        <h4>Name *</h4>
+        <input type="text" placeholder="First Name" name="fn" pattern="[a-zA-z ]{4,9}" required />
+        <input type="text" placeholder="Middle Initial" name="mn" pattern="[a-zA-z ]{4,9}" required />
+        <input type="text" placeholder="Last Name" name="ln" pattern="[a-zA-z ]{4,9}" required />
+        <br/>
+        <h4>Father's Name *</h4>
+        <input type="text" placeholder="First Name" name="fm" pattern="[a-zA-z ]{4,9}" required />
+        <input type="text" placeholder="Middle Initial" name="mn" pattern="[a-zA-z ]{4,9}" required />
+        <input type="text" placeholder="Last Name" name="ln" pattern="[a-zA-z ]{4,9}" required />
+        <br/>
+        <h4>Mother's Name *</h4>
+        <input type="text" placeholder="First Name" name="fn" pattern="[a-zA-z ]{4,9}" required />
+        <input type="text" placeholder="Middle Initial" name="mn" pattern="[a-zA-z ]{4,9}" required />
+        <input type="text" placeholder="Last Name" name="ln" pattern="[a-zA-z ]{4,9}" required />
+        <br/>
+        <h4>Date of Birth *</h4>
+        <input type="date" required/>
+        <br>
+        <h4>Gender *</h4>
+        <input type="radio" name="Gender" required/>Male
+        <input type="radio" name="Gender" />Female
+        <input type="radio" name="Gender" />Other
+        <br/>
+        <h4>Mobile No. *</h4>
+        <input type="number" placeholder="Enter your mobile number" minlength="10" maxlength="12" pattern="(0|91)?[6-9][0-9]{9}" required />
+        <br/>
+        <h4>Email *</h4>
+        <input type="email" placeholder="ex: myname@gmail.com" pattern=".+@gmail\.com" required />
+        <br/>
+        <h4>Address *</h4>
+        <textarea name="address" placeholder="Enter Your Address" id="" cols="30" rows="10" required></textarea>
+        <br/>
+        <h4>Pincode</h4>
+        <input type="number" placeholder="Enter pincode" name="code" required/>
+        <br/><br/>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+
+    </form>
+</body>
+
+</html>
