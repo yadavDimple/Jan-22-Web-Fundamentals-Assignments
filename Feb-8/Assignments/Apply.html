@@ -1,27 +1,39 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-<head></head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.ico">
+    <title>Geekster-Apply-Form</title>
+</head>
 
 <body>
     <h1>Geekster Application Form</h1>
     <form action="">
-        <h4>Full Name*</h4>
+        <label for="name"> <b> Full Name*</b></label>
+        <br/><br/>
         <input type="text" placeholder="Enter full name" minlength="3" maxlength="15" pattern="^[A-Za-z ]*$" required/>
-        <br/>
-        <h4>Email*</h4>
-        <input type="text" placeholder="Enter email" pattern=".+@gmail\.com" required/>
-        <br/>
-        <h4>Select Course*</h4>
+        <br/><br/>
+        <label for="email"> <b> Email*</b></label>
+        <br/><br/>
+        <input type="email" placeholder="Enter email" pattern=".+@gmail\.com" required/>
+        <br/><br/>
+        <label for="course"> <b>Select Course*</b> </label>
+        <br/><br/>
         <select name="course" id="" required>
           <option selected value disabled hidden value="">Select course</option>
           <option value="Full Stack Web Development">Full Stack Web Development</option>
          <option value="Advanced Web Development">Advanced Web Development</option>
         </select>
-        <br>
-        <h4>Phone*</h4>
+        <br/><br/>
+        <label for="number"> <b>Phone*</b> </label>
+        <br/><br/>
         <input type="number" placeholder="Enter mobile number" maxlength="150" pattern="^(\+91|\+91\-|0)?[789]\d{9}$/" required/>
-        <br/>
-        <h4>Highest Degree*</h4>
+        <br/><br/>
+        <label for="degree"> <b>Highest Degree*</b></label>
+        <br/><br/>
         <select name="degree " id=" " required>
             <option selected value disabled hidden value=" ">Select highest degree</option>
             <option value="B.E or B.Tech CS/IT ">B.E or B.Tech CS/IT</option>
@@ -32,8 +44,9 @@
             <option value="MCA ">MCA</option>
             <option value="Others ">Others</option>
         </select>
-        <br/>
-        <h4>Year of Completion*</h4>
+        <br/><br/>
+        <label for="yoc"><b>Year of Completion*</b></label>
+        <br/><br/>
         <select name="yoc " id=" " required> 
             <option selected value disabled hidden value=" ">Select year of completion</option>
             <option value="2018 ">2018</option>
@@ -43,8 +56,9 @@
             <option value="2022 ">2022</option>
             <option value="2023 ">2023</option>
         </select>
-        <br/>
-        <h4>Programming Skills*</h4>
+        <br/><br/>
+        <label for="prgSkills"><b>Programming Skills*</b></label>
+        <br/><br/>
         <select name="prgSkill " id=" " required>
             <option selected value disabled hidden value=" ">Select programming skills</option>
             <option value="No coding skills ">No coding skills</option>
@@ -61,9 +75,10 @@
         </span>
         <br/><br/>
         <button type="submit ">Submit</button>
-        <br/><br/>
         <button type="reset">Reset</button>
 
 
     </form>
 </body>
+
+</html>
