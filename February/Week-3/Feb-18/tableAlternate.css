@@ -1,0 +1,32 @@
+table {
+    text-align: center;
+    width: 100%;
+    border: 3px solid black;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+thead {
+    background-color: lightpink;
+    font-size: 25px;
+}
+
+.test {
+    font-weight: 800;
+}
+
+.text-decoration {
+    text-decoration: line-through;
+}
+
+tbody tr:nth-child(3n+1) {
+    background-color: lightgrey;
+}
+
+tbody tr:nth-child(3n-1) {
+    background-color: darkgrey;
+}
+
+tbody tr:nth-child(3n) {
+    background-color: grey;
+}
