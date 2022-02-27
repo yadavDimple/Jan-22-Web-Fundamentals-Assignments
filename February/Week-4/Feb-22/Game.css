@@ -1,0 +1,42 @@
+                    body {
+                        text-align: center;
+                        background-color: rgb(29, 177, 130);
+                    }
+                    
+                    span {
+                        margin: 100px;
+                    }
+                    
+                    .star1 {
+                        margin: 0px 200px 0px 0px;
+                        color: white;
+                    }
+                    
+                    .star2 {
+                        margin: 50px 10px 0px 95px;
+                        color: white;
+                    }
+                    
+                    .top {
+                        margin-top: 90px;
+                        font-weight: 900;
+                        font-size: 20px;
+                    }
+                    
+                    img {
+                        display: inline-flex;
+                        height: 100px;
+                        margin: 10px 0px 20px 0px;
+                        padding: 50px 40px 0px 10px;
+                    }
+                    
+                    .mid {
+                        margin: 10px 400px 0px 4px;
+                        /* padding: 10px 50px 70px 0px; */
+                    }
+                    
+                    .end {
+                        margin: 40px 10px 0px 10px;
+                        font-weight: 400px;
+                        font-size: 25px;
+                    }
