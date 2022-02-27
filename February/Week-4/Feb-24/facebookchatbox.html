@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="./facebookchatbox.css" />
+    <title>Facebook-ChatBox-UI</title>
+</head>
+
+<body>
+    <div id="chat-bubble">
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="user-avatar" onclick="openChatBubble()">
+                    <div class="img-container">
+                        <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKBQunv3hE-wHL3QFt0wMrd1wgp9E_d96A8w&usqp=CAU" alt="" />
+                    </div>
+                    <div class="user-status-info">
+                        <a href="#">Dimple</a>
+                        <p>
+                            Active now
+                        </p>
+                    </div>
+                </div>
+                <div class="chat-comm">
+                    <nav>
+                        <a href="#">
+                            <i class="material-icons">videocam</i>
+                        </a>
+                        <a href="#">
+                            <i class="material-icons">call</i>
+                        </a>
+                        <a href="#">
+                            <i class="material-icons">settings</i>
+                        </a>
+                        <a href="#" onclick="openChatBubble()">
+                            <i class="material-icons">close</i>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="chat-body">
+                <div class="sender-other">
+                    <div class="user-avatar">
+                        <div class="img-container">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKBQunv3hE-wHL3QFt0wMrd1wgp9E_d96A8w&usqp=CAU" alt="" />
+                        </div>
+                        <div class="other-message">
+                            Hii there!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sender-me">
+                    <div class="my-message">
+                        Hello
+                    </div>
+                    <div class="seen-at">
+                        <i class="material-icons check" class="check">check</i>Seen 8.00 AM
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-footer">
+                <input type="textarea" placeholder="Type a message..." />
+                <div class="chat-media">
+                    <nav class="nav1">
+                        <a href="#">
+                            <i class="material-icons upload">file_upload</i>
+                        </a>
+                        <a href="#">
+                            <i class="material-icons emoji">insert_emoticon</i>
+                        </a>
+                        <a href="#">
+                            <i class="material-icons game">videogame_asset</i>
+                        </a>
+                        <a href="#">
+                            <i class="material-icons attach">attachment</i>
+                        </a>
+                        <a href="#">
+                            <i class=" camera material-icons ">camera_alt</i>
+                        </a>
+                    </nav>
+                    <a href="#">
+                        <i class="material-icons like">thumb_up</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function openChatBubble() {
+            var element = document.getElementById("chat-bubble");
+            element.classList.toggle("open")
+        }
+    </script>
+</body>
+
+</html>
