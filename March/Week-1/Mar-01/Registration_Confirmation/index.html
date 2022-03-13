@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_Confirmation_Form</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>Register</h1>
+
+            <h3> Create an Account</h3>
+            <br/>
+
+            <form action="">
+                <label>Username</label><br/>
+                <input type="text" placeholder="Enter Username" name="un" required class="input" />
+                <br /><br />
+                <label>Email</label>
+                <br/>
+                <input type="text" placeholder="Enter email" name="email" required pattern=".+@gmail\.com" class="input" />
+                <br /><br />
+                <label>Password</label>
+                <br/>
+                <input type="password" placeholder="create password" required pattern=".{8}" class="pswd" id="password">
+                <input type="password" placeholder="confirm password" required class="pswd" id="confirmPassword"><br /><br/>
+                <input type="submit" class="signup" onclick="confirm_password()"><br />
+
+            </form>
+        </div>
+    </div>
+    <h1 class="h1" id="op_text"></h1>
+    <script src="./index.js"></script>
+</body>
+</body>
+
+</html>
