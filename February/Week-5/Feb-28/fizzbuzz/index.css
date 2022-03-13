@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+p {
+    position: relative;
+    top: -150px;
+}
+
+button {
+    position: relative;
+    left: 80px;
+    margin: 0px 30px 60px 0px;
+    padding: 15px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.container {
+    border-radius: 50px;
+    background-color: pink;
+}
