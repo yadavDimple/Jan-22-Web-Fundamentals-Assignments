@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    background-color: #029066;
+}
+
+.trending-gif {
+    /* height: 80vh; */
+    width: 90%;
+    display: flex;
+    margin: 0% 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    transform: translateY(-90px);
+}
+
+#search {
+    width: 100%;
+    display: flex;
+    margin: 0% 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+    transform: translateY(-50px);
+}
+
+.hide {
+    display: none;
+}
+
+.custom-search-bar {
+    border: 1px solid rgb(180, 248, 191);
+    margin-left: 35%;
+    width: 385px;
+    transform: translateY(-80px);
+    color: white;
+}
+
+.custom-search-bar>input {
+    padding: 15px;
+    width: 300px;
+    font-size: 30px;
+    outline: transparent;
+    border-color: transparent;
+    cursor: inherit;
+}
+
+.custom-search-bar>button {
+    padding: 5px;
+    margin-left: -10px;
+    border-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+h1 {
+    position: sticky;
+    top: 3%;
+    z-index: 100;
+    text-align: center;
+    font-family: cursive;
+    font-size: 80px;
+    transform: translateY(-50px);
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGyHKiOzlKnsEsaj9xgUDs-Uyz0Osk01gYA&usqp=CAU");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: riya 20s linear infinite;
+}
+
+@keyframes riya {
+    100% {
+        background-position: 1000px 0;
+    }
+}
