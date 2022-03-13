@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.big-container {
+    position: relative;
+    min-height: 100vh;
+    background: #ddd;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 5px 0 50px;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.big-container .gallery {
+    margin: 10px 10px 10px 50px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.big-container .gallery .image {
+    height: 250px;
+    width: 350px;
+    border: 10px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.gallery .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+    padding: 5px;
+    /* filter: grayscale(100%); */
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+i {
+    font-size: 40px;
+    color: black;
+}
+
+span {
+    font-size: 25px;
+}
+
+#like:hover {
+    color: rgb(65, 65, 236);
+}
+
+#dislike:hover {
+    color: rgb(243, 52, 52);
+}
